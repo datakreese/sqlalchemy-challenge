@@ -75,12 +75,6 @@ def Station_data():
     stations = list(np.ravel(results))
     return jsonify(stations)
 
-#session.query(Invoices.BillingCountry).group_by(Invoices.BillingCountry).all()
-    #if we need to change a tuple to a list
-    #all_stations = list(np.ravel(results)
-    #return jsonify(all_stations)
-
-
 
 #####return a JSON list for the temps in the last year from the most active station
 @app.route("/api/v1.0/tobs")
@@ -93,7 +87,7 @@ def tobs():
 
 ## this route accepts user input
 ## the user provides start date and end date
-#####Calculate min, mean, and max for those temps
+#####Calculate min, mean, and max for temps within the specified dates
 
 @app.route("/api/v1.0/<start>")
 @app.route("/api/v1.0/<start>/<end>")
