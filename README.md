@@ -22,4 +22,4 @@ Stations Summary:
 - Visualize both temp and precip with heat mapping to inform land use planning and resource management.
 
 ## Sources 
-Flask code fine tuned in collaboration with Amman Shearhad. 
+Flask code fine tuned in collaboration with Amman Shearhad. See license for copyright details.
